@@ -1,0 +1,260 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mylibrary
+LIBS:xmega-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_PACK4 RPF1
+U 1 1 554A82EC
+P 5250 3350
+F 0 "RPF1" H 5250 3800 50  0000 C CNN
+F 1 "220" H 5250 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x1206" H 5250 3350 60  0001 C CNN
+F 3 "" H 5250 3350 60  0000 C CNN
+	1    5250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK4 RPF2
+U 1 1 554A82F3
+P 5250 3750
+F 0 "RPF2" H 5250 4200 50  0000 C CNN
+F 1 "220" H 5250 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x1206" H 5250 3750 60  0001 C CNN
+F 3 "" H 5250 3750 60  0000 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 5550 3000 2    60   Input ~ 0
+in0
+Text HLabel 5550 3100 2    60   Input ~ 0
+in1
+Text HLabel 5550 3200 2    60   Input ~ 0
+in2
+Text HLabel 5550 3300 2    60   Input ~ 0
+in3
+Text HLabel 5550 3400 2    60   Input ~ 0
+in4
+Text HLabel 5550 3500 2    60   Input ~ 0
+in5
+Text HLabel 5550 3600 2    60   Input ~ 0
+in6
+Text HLabel 5550 3700 2    60   Input ~ 0
+in7
+Wire Wire Line
+	4550 3700 5050 3700
+Wire Wire Line
+	4500 3600 5050 3600
+Wire Wire Line
+	4450 3500 5050 3500
+Wire Wire Line
+	4400 3400 5050 3400
+Wire Wire Line
+	4050 3300 5050 3300
+Wire Wire Line
+	4400 3200 5050 3200
+Wire Wire Line
+	5450 3000 5550 3000
+Wire Wire Line
+	5450 3100 5550 3100
+Wire Wire Line
+	5450 3200 5550 3200
+Wire Wire Line
+	5550 3300 5450 3300
+Wire Wire Line
+	5550 3400 5450 3400
+Wire Wire Line
+	5550 3500 5450 3500
+Wire Wire Line
+	5550 3600 5450 3600
+Wire Wire Line
+	5550 3700 5450 3700
+Wire Wire Line
+	4450 3100 5050 3100
+Wire Wire Line
+	4500 3000 5050 3000
+$Comp
+L CONN_01X16 P4
+U 1 1 5559585F
+P 3850 3350
+F 0 "P4" H 3850 4200 50  0000 C CNN
+F 1 "PH_DIGITAL IO" V 3950 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 3850 3350 60  0001 C CNN
+F 3 "" H 3850 3350 60  0000 C CNN
+	1    3850 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR027
+U 1 1 5559A9B3
+P 4250 2800
+F 0 "#PWR027" H 4250 2550 50  0001 C CNN
+F 1 "GNDD" H 4250 2650 50  0000 C CNN
+F 2 "" H 4250 2800 60  0000 C CNN
+F 3 "" H 4250 2800 60  0000 C CNN
+	1    4250 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2800 4250 2800
+$Comp
+L GNDD #PWR028
+U 1 1 5559AA8E
+P 4250 3000
+F 0 "#PWR028" H 4250 2750 50  0001 C CNN
+F 1 "GNDD" H 4250 2850 50  0000 C CNN
+F 2 "" H 4250 3000 60  0000 C CNN
+F 3 "" H 4250 3000 60  0000 C CNN
+	1    4250 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3000 4250 3000
+$Comp
+L GNDD #PWR029
+U 1 1 5559AA9D
+P 4250 3200
+F 0 "#PWR029" H 4250 2950 50  0001 C CNN
+F 1 "GNDD" H 4250 3050 50  0000 C CNN
+F 2 "" H 4250 3200 60  0000 C CNN
+F 3 "" H 4250 3200 60  0000 C CNN
+	1    4250 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3200 4250 3200
+$Comp
+L GNDD #PWR030
+U 1 1 5559AB0A
+P 4250 3400
+F 0 "#PWR030" H 4250 3150 50  0001 C CNN
+F 1 "GNDD" H 4250 3250 50  0000 C CNN
+F 2 "" H 4250 3400 60  0000 C CNN
+F 3 "" H 4250 3400 60  0000 C CNN
+	1    4250 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3400 4250 3400
+$Comp
+L GNDD #PWR031
+U 1 1 5559AB11
+P 4250 3600
+F 0 "#PWR031" H 4250 3350 50  0001 C CNN
+F 1 "GNDD" H 4250 3450 50  0000 C CNN
+F 2 "" H 4250 3600 60  0000 C CNN
+F 3 "" H 4250 3600 60  0000 C CNN
+	1    4250 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3600 4250 3600
+$Comp
+L GNDD #PWR032
+U 1 1 5559AB18
+P 4250 3800
+F 0 "#PWR032" H 4250 3550 50  0001 C CNN
+F 1 "GNDD" H 4250 3650 50  0000 C CNN
+F 2 "" H 4250 3800 60  0000 C CNN
+F 3 "" H 4250 3800 60  0000 C CNN
+	1    4250 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3800 4250 3800
+$Comp
+L GNDD #PWR033
+U 1 1 5559AB53
+P 4250 4000
+F 0 "#PWR033" H 4250 3750 50  0001 C CNN
+F 1 "GNDD" H 4250 3850 50  0000 C CNN
+F 2 "" H 4250 4000 60  0000 C CNN
+F 3 "" H 4250 4000 60  0000 C CNN
+	1    4250 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4000 4250 4000
+$Comp
+L GNDD #PWR034
+U 1 1 5559AB5A
+P 4250 2600
+F 0 "#PWR034" H 4250 2350 50  0001 C CNN
+F 1 "GNDD" H 4250 2450 50  0000 C CNN
+F 2 "" H 4250 2600 60  0000 C CNN
+F 3 "" H 4250 2600 60  0000 C CNN
+	1    4250 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2600 4250 2600
+Wire Wire Line
+	4500 3000 4500 2700
+Wire Wire Line
+	4500 2700 4050 2700
+Wire Wire Line
+	4450 3100 4450 2900
+Wire Wire Line
+	4450 2900 4050 2900
+Wire Wire Line
+	4400 3200 4400 3100
+Wire Wire Line
+	4400 3100 4050 3100
+Wire Wire Line
+	4400 3400 4400 3500
+Wire Wire Line
+	4400 3500 4050 3500
+Wire Wire Line
+	4450 3500 4450 3700
+Wire Wire Line
+	4450 3700 4050 3700
+Wire Wire Line
+	4500 3600 4500 3900
+Wire Wire Line
+	4500 3900 4050 3900
+Wire Wire Line
+	4550 3700 4550 4100
+Wire Wire Line
+	4550 4100 4050 4100
+$EndSCHEMATC

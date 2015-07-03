@@ -1,0 +1,408 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:open-project
+LIBS:xmega-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD2FA
+P 2200 1450
+F 0 "D?" H 2300 1350 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 2200 1550 50  0000 C CNN
+F 2 "" H 2200 1450 60  0000 C CNN
+F 3 "" H 2200 1450 60  0000 C CNN
+	1    2200 1450
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1300 800  0    50   Input ~ 0
+Vcc
+Wire Wire Line
+	1300 800  1500 800 
+$Comp
+L VCC #PWR?
+U 1 1 554AD4B5
+P 1500 800
+F 0 "#PWR?" H 1500 650 50  0001 C CNN
+F 1 "VCC" H 1500 950 50  0000 C CNN
+F 2 "" H 1500 800 60  0000 C CNN
+F 3 "" H 1500 800 60  0000 C CNN
+	1    1500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD4CB
+P 2200 900
+F 0 "#PWR?" H 2200 750 50  0001 C CNN
+F 1 "VCC" H 2200 1050 50  0000 C CNN
+F 2 "" H 2200 900 60  0000 C CNN
+F 3 "" H 2200 900 60  0000 C CNN
+	1    2200 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 900  2200 1050
+$Comp
+L GND #PWR?
+U 1 1 554AD4DD
+P 2200 2000
+F 0 "#PWR?" H 2200 1750 50  0001 C CNN
+F 1 "GND" H 2200 1850 50  0000 C CNN
+F 2 "" H 2200 2000 60  0000 C CNN
+F 3 "" H 2200 2000 60  0000 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2000 2200 1850
+$Comp
+L GND #PWR?
+U 1 1 554AD4F7
+P 1500 1600
+F 0 "#PWR?" H 1500 1350 50  0001 C CNN
+F 1 "GND" H 1500 1450 50  0000 C CNN
+F 2 "" H 1500 1600 60  0000 C CNN
+F 3 "" H 1500 1600 60  0000 C CNN
+	1    1500 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 1250 1500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1250 1500 1500 1500
+Wire Wire Line
+	1500 1500 1500 1600
+Wire Wire Line
+	2400 1450 2550 1450
+Text HLabel 2550 1450 2    50   Input ~ 0
+IO0
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD7D6
+P 2200 2900
+F 0 "D?" H 2300 2800 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 2200 3000 50  0000 C CNN
+F 2 "" H 2200 2900 60  0000 C CNN
+F 3 "" H 2200 2900 60  0000 C CNN
+	1    2200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD7DC
+P 2200 2350
+F 0 "#PWR?" H 2200 2200 50  0001 C CNN
+F 1 "VCC" H 2200 2500 50  0000 C CNN
+F 2 "" H 2200 2350 60  0000 C CNN
+F 3 "" H 2200 2350 60  0000 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2350 2200 2500
+$Comp
+L GND #PWR?
+U 1 1 554AD7E3
+P 2200 3450
+F 0 "#PWR?" H 2200 3200 50  0001 C CNN
+F 1 "GND" H 2200 3300 50  0000 C CNN
+F 2 "" H 2200 3450 60  0000 C CNN
+F 3 "" H 2200 3450 60  0000 C CNN
+	1    2200 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3450 2200 3300
+Wire Wire Line
+	2400 2900 2550 2900
+Text HLabel 2550 2900 2    50   Input ~ 0
+IO1
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD884
+P 2200 4500
+F 0 "D?" H 2300 4400 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 2200 4600 50  0000 C CNN
+F 2 "" H 2200 4500 60  0000 C CNN
+F 3 "" H 2200 4500 60  0000 C CNN
+	1    2200 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD88A
+P 2200 3950
+F 0 "#PWR?" H 2200 3800 50  0001 C CNN
+F 1 "VCC" H 2200 4100 50  0000 C CNN
+F 2 "" H 2200 3950 60  0000 C CNN
+F 3 "" H 2200 3950 60  0000 C CNN
+	1    2200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3950 2200 4100
+$Comp
+L GND #PWR?
+U 1 1 554AD891
+P 2200 5050
+F 0 "#PWR?" H 2200 4800 50  0001 C CNN
+F 1 "GND" H 2200 4900 50  0000 C CNN
+F 2 "" H 2200 5050 60  0000 C CNN
+F 3 "" H 2200 5050 60  0000 C CNN
+	1    2200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5050 2200 4900
+Wire Wire Line
+	2400 4500 2550 4500
+Text HLabel 2550 4500 2    50   Input ~ 0
+IO2
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD89A
+P 2200 5950
+F 0 "D?" H 2300 5850 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 2200 6050 50  0000 C CNN
+F 2 "" H 2200 5950 60  0000 C CNN
+F 3 "" H 2200 5950 60  0000 C CNN
+	1    2200 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD8A0
+P 2200 5400
+F 0 "#PWR?" H 2200 5250 50  0001 C CNN
+F 1 "VCC" H 2200 5550 50  0000 C CNN
+F 2 "" H 2200 5400 60  0000 C CNN
+F 3 "" H 2200 5400 60  0000 C CNN
+	1    2200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5400 2200 5550
+$Comp
+L GND #PWR?
+U 1 1 554AD8A7
+P 2200 6500
+F 0 "#PWR?" H 2200 6250 50  0001 C CNN
+F 1 "GND" H 2200 6350 50  0000 C CNN
+F 2 "" H 2200 6500 60  0000 C CNN
+F 3 "" H 2200 6500 60  0000 C CNN
+	1    2200 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6500 2200 6350
+Wire Wire Line
+	2400 5950 2550 5950
+Text HLabel 2550 5950 2    50   Input ~ 0
+IO3
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD964
+P 5100 1550
+F 0 "D?" H 5200 1450 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 5100 1650 50  0000 C CNN
+F 2 "" H 5100 1550 60  0000 C CNN
+F 3 "" H 5100 1550 60  0000 C CNN
+	1    5100 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD96A
+P 5100 1000
+F 0 "#PWR?" H 5100 850 50  0001 C CNN
+F 1 "VCC" H 5100 1150 50  0000 C CNN
+F 2 "" H 5100 1000 60  0000 C CNN
+F 3 "" H 5100 1000 60  0000 C CNN
+	1    5100 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1000 5100 1150
+$Comp
+L GND #PWR?
+U 1 1 554AD971
+P 5100 2100
+F 0 "#PWR?" H 5100 1850 50  0001 C CNN
+F 1 "GND" H 5100 1950 50  0000 C CNN
+F 2 "" H 5100 2100 60  0000 C CNN
+F 3 "" H 5100 2100 60  0000 C CNN
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2100 5100 1950
+Wire Wire Line
+	5300 1550 5450 1550
+Text HLabel 5450 1550 2    50   Input ~ 0
+IO4
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD97A
+P 5100 3000
+F 0 "D?" H 5200 2900 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 5100 3100 50  0000 C CNN
+F 2 "" H 5100 3000 60  0000 C CNN
+F 3 "" H 5100 3000 60  0000 C CNN
+	1    5100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD980
+P 5100 2450
+F 0 "#PWR?" H 5100 2300 50  0001 C CNN
+F 1 "VCC" H 5100 2600 50  0000 C CNN
+F 2 "" H 5100 2450 60  0000 C CNN
+F 3 "" H 5100 2450 60  0000 C CNN
+	1    5100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2450 5100 2600
+$Comp
+L GND #PWR?
+U 1 1 554AD987
+P 5100 3550
+F 0 "#PWR?" H 5100 3300 50  0001 C CNN
+F 1 "GND" H 5100 3400 50  0000 C CNN
+F 2 "" H 5100 3550 60  0000 C CNN
+F 3 "" H 5100 3550 60  0000 C CNN
+	1    5100 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3550 5100 3400
+Wire Wire Line
+	5300 3000 5450 3000
+Text HLabel 5450 3000 2    50   Input ~ 0
+IO5
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD990
+P 5100 4600
+F 0 "D?" H 5200 4500 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 5100 4700 50  0000 C CNN
+F 2 "" H 5100 4600 60  0000 C CNN
+F 3 "" H 5100 4600 60  0000 C CNN
+	1    5100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD996
+P 5100 4050
+F 0 "#PWR?" H 5100 3900 50  0001 C CNN
+F 1 "VCC" H 5100 4200 50  0000 C CNN
+F 2 "" H 5100 4050 60  0000 C CNN
+F 3 "" H 5100 4050 60  0000 C CNN
+	1    5100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4050 5100 4200
+$Comp
+L GND #PWR?
+U 1 1 554AD99D
+P 5100 5150
+F 0 "#PWR?" H 5100 4900 50  0001 C CNN
+F 1 "GND" H 5100 5000 50  0000 C CNN
+F 2 "" H 5100 5150 60  0000 C CNN
+F 3 "" H 5100 5150 60  0000 C CNN
+	1    5100 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5150 5100 5000
+Wire Wire Line
+	5300 4600 5450 4600
+Text HLabel 5450 4600 2    50   Input ~ 0
+IO6
+$Comp
+L D_Schottky_x2_Serial D?
+U 1 1 554AD9A6
+P 5100 6050
+F 0 "D?" H 5200 5950 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial" H 5100 6150 50  0000 C CNN
+F 2 "" H 5100 6050 60  0000 C CNN
+F 3 "" H 5100 6050 60  0000 C CNN
+	1    5100 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 554AD9AC
+P 5100 5500
+F 0 "#PWR?" H 5100 5350 50  0001 C CNN
+F 1 "VCC" H 5100 5650 50  0000 C CNN
+F 2 "" H 5100 5500 60  0000 C CNN
+F 3 "" H 5100 5500 60  0000 C CNN
+	1    5100 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5500 5100 5650
+$Comp
+L GND #PWR?
+U 1 1 554AD9B3
+P 5100 6600
+F 0 "#PWR?" H 5100 6350 50  0001 C CNN
+F 1 "GND" H 5100 6450 50  0000 C CNN
+F 2 "" H 5100 6600 60  0000 C CNN
+F 3 "" H 5100 6600 60  0000 C CNN
+	1    5100 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6600 5100 6450
+Wire Wire Line
+	5300 6050 5450 6050
+Text HLabel 5450 6050 2    50   Input ~ 0
+IO7
+$EndSCHEMATC
